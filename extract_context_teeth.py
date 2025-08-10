@@ -13,6 +13,7 @@ from utils.bounding_box import get_bounding_boxes
 from utils.request_response_for_jaw_label_bounding_box_extraction import get_response
 from utility import extract_teeth
 
+
 # remove non-connected smaller components from teeth_gums_mesh
 def extract_teeth_and_gums(mesh, area_threshold=None, percentile_threshold=95):
     """
