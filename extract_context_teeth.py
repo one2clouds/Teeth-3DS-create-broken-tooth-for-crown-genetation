@@ -164,7 +164,7 @@ def extract_teeth_group_and_their_gums(mesh, segments, target_segment_ids, min_t
     
     # Check if we found any triangles in the target segments
     if not np.any(teeth_mask):
-        raise ValueError(f"No triangles found for segment IDs {target_segment_ids}")
+        print(ValueError(f"No triangles found for segment IDs {target_segment_ids}"))
     
     # Get triangles for the teeth selection
     teeth_triangles = triangles[teeth_mask]

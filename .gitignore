@@ -194,3 +194,9 @@ teeth_files_customer/
 outputs/
 outputs_client/
 model_checkpoints/
+CROWN-ITERO-ANNOTATED-TOOTH/
+CROWN-PARTIAL-ANNOTATED-TOOTH/
+outputs-CROWN-ITERO-ANNOTATED/
+outputs-CROWN-PARTIAL-ANNOTATED/
+Crown-Only-ITERO
+Crown-PARTIAL-Only
