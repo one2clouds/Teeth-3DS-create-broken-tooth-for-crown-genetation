@@ -3,8 +3,8 @@
 ## Download Dataset
 
 ```bash
-git lfs install
-git clone https://huggingface.co/datasets/accelerated-komputing/CROWN_GEN_DATASET
+pip install huggingface_hub
+huggingface-cli download accelerated-komputing/CROWN_GEN_DATASET --repo-type dataset --local-dir CROWN_GEN_DATASET
 ```
 
 ## Installation
